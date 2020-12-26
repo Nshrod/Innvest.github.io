@@ -1,0 +1,65 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+html{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #34495e;
+}
+.box{
+  top: 30%;
+  left: 36%;
+  position: absolute;
+  border: 0.5px solid gray;
+  padding: 40px 60px;
+  font-family: bofont;
+  background-color: white;
+}
+.box_form input{
+  font-family: bofont;
+  width: 150px;
+  height: 18px;
+}
+.box_form input:focus{
+  background-color: #16a085;
+  width: 200px;
+}
+.box_form input[type="radio"]{
+  width: 28px;
+}
+.item_1{
+  font-size: 16px;
+  padding-right: 15px;
+}
+.box_form input[type="submit"]{
+  height: 35px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 35px;
+  background-color: #2ecc71;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.box_form input[type="submit"]:focus{
+  width: 150px;
+}

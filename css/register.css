@@ -1,0 +1,194 @@
+/* 字体文件 */
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: kaishu_font;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+html{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/background-1.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.registerBox{
+	display: block;
+	position: absolute;
+	height: 598px;
+	width: auto;
+
+	/* 设置居中显示 */
+	top: 50%;
+	right: -12.5%;
+
+	/* transform 属性向元素应用 2D 或 3D 转换。该属性允许我们对元素进行旋转、缩放、移动或倾斜。
+		 translate(x,y)	定义 2D 转换。
+	 */
+	transform: translate(-50%,-50%);
+
+}
+.leftbar{
+	margin: 0px;
+	display: inline-block;
+	width: 528px;
+	height: 598px;
+	vertical-align: middle;
+}
+
+.leftbar img{
+	margin: 0px;
+	padding: 0px;
+	width: 528px;
+  height: 598px;
+}
+
+.rightbar{
+	margin: -4.5px;
+	height: 598px;
+	width: 450px;
+	display: inline-block;
+	background-color: #ecf0f1;
+	vertical-align: middle;
+
+	/* 设置透明度 */
+	filter: opacity(opacity=60);
+	opacity: 0.8;
+}
+.registerbar{
+	margin: 0px;
+	padding: 0px;
+}
+.firstLine{
+	padding-top: 25px;
+	width: 450px;
+	font-family: xingkai_font;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-bottom: 0px;
+	color: #feca57;
+}
+.firstLine img{
+	padding-left: 10px;
+	width: 10%;
+	height: 10%;
+}
+.firstLine button{
+	text-align: center;
+	float: right;
+	font-size: 20px;
+	font-weight: 200;
+	margin-top: 5px;
+	margin-right: 20px;
+	font-family: kaishu_font;
+	border-radius: 10px;
+	border: 1px solid #2ecc71;
+	outline: none;
+	background: white;
+}
+.firstLine button:hover{
+	background: #1abc9c;
+}
+
+.secondLine{
+	font-family: xingkai_font;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-bottom: 60px;
+	color: #00d2d3;
+}
+
+.rightbar input{
+	display: block;
+}
+
+.rightbar input[type="text"],input[type="password"]{
+	width: 300px;
+	/* margin-left: 85px; */
+	margin: 8px auto;
+	padding: 7px 7px;
+	outline: none;
+	border-radius: 20px;
+	border: 2px solid #00cec9;
+	text-align: center;
+}
+.rightbar input[type="text"]:focus,input[type="password"]:focus{
+	width: 350px;
+	background: #00cec9;
+}
+#check{
+  display: inline;
+  width: 200px;
+  margin-left: 77px;
+}
+
+
+.rightbar input[type="password"]{
+	margin-top: 20px;
+}
+.rightbar input[type="submit"]{
+	width: 150px;
+	font-family: cursive;
+	font-size: 25px;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px auto;
+	margin-top: 20px;
+	border-radius: 20px;
+	border: 2px solid #1dd1a1;
+	/* background: #0abde3; */
+}
+.checkbutton{
+  margin-top: 20px;
+  width: auto;
+  font-family: cursive;
+  text-decoration: none;
+	text-align: center;
+  background: #00d2d3;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+.checkbutton:focus{
+  outline: none;
+}
+
+.paybutton{
+  width: 150px;
+	font-family: cursive;
+	font-size: 25px;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px auto;
+	margin-top: 70px;
+	border-radius: 20px;
+	border: 2px solid #1dd1a1;
+}
+
+.rightbar input[type="submit"]:hover , .paybutton:hover{
+	 background: #0abde3;
+}

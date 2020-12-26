@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- LOGO===================== -->
+    <link rel="icon" href="./images/logo.ico">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap4======================================= -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS============================================== -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- JS=============================================== -->
+    <script src="./js/main.js"></script>
+
+    <title>SuperSeven - 主页</title>
+  </head>
+  <body>
+    <!-- 导航栏 =固定在顶部======================== -->
+    <nav class="navbar navbar-expand-sm navbar-primary fixed-top">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="./main.html" target="_self">
+        <img class="img-fluid" src="./images/logo.ico" alt="Logo">
+        <b>SUPERSeven</b>
+      </a>
+
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#product">产品</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#character">特点</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scheme">方案</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#partner">成为合作伙伴</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#custom">客户</a>
+        </li>
+      </ul>
+      <!-- 登录/注册 -->
+      <li class="login">
+        <!-- 登录注册 -->
+          <a name="login" href="./front/login.html" target="_blank">登录</a>
+          <a name="register" href="./front/register.html" target="_blank">注册</a>
+      </li>
+    </nav>
+
+    <!-- 轮播图片=========================== -->
+    <div class="banner">
+      <img id="banner_img" src="./images/banner/banner_1.png" alt="banner_img">
+    </div>
+
+    <!-- 主题内容 =实现container================================================ -->
+    <div class="centrebar">
+      <div class="container manifesto">
+        <p id="summary">SUPERSeven,为微小企业成长而生！</p>
+        <div class="m_part1">
+          <p id="summary_title">
+            <img src="./images/show/dagou.png" alt="蓝色勾矢量图" title="智能财务">
+            <span>智能财务，共同成长</span>
+
+            <img src="./images/show/dagou.png" alt="蓝色勾矢量图" title="创新经营">
+            <span>创新经营，智慧管理</span>
+
+            <img src="./images/show/dagou.png" alt="蓝色勾矢量图" title="轻松管理">
+            <span>轻松管理，高效协同</span>
+
+            <img src="./images/show/dagou.png" alt="蓝色勾矢量图" title="高效省心">
+            <span>高效省心，明智选择</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 产品======================================================================= -->
+    <div id="product" class="productbar">
+      <!-- 产品栏-导航栏-=============================== -->
+      <div class="productbar_tab container">
+        <div class="productbar_item item-1" title="财务管理">
+          <p id="item_first">财务管理</p>
+          <div class="toggle_icon"></div>
+        </div>
+        <div class="productbar_item item-2" title="进销管理">
+          <p>进销管理</p>
+          <div class="toggle_icon"></div>
+        </div>
+        <div class="productbar_item item-3" title="移动管理">
+          <p>移动管理</p>
+          <div class="toggle_icon"></div>
+        </div>
+        <div class="productbar_item item-4" title="财贸管理">
+          <p id="item_last">财贸管理</p>
+          <div class="toggle_icon"></div>
+        </div>
+      </div>
+
+        <!-- 产品栏-对应描述框-============================= -->
+      <div class="productbar_cell finance" style="display:absolute;">
+        <!-- 相关描述 -->
+        <div class="item_cell">
+          <span class="item_essay">
+            <h3>云会计</h3>
+            <div class="item_deital">
+              <p>智能记账：手机拍票据，智能生成凭证，自动生成财务报表</p>
+              <p>高效协同：随时随地记账查账，多人多终端高效协同</p>
+            </div>
+            <hr/>
+            <p>“使用精斗云云会计后，公司财务由excel表格记账升级到通过SaaS软件进行专业...</p>
+            <button class="btn btn-primary disabled" type="button" name="try_more">30天免费试用</button>
+            <button id="btn_second" class="btn disabled" type="button" name="know_more">参看更多</button>
+          </span>
+          <span class="item_img">
+            <img src="./images/product/product_cell_1.png" alt="product_cell_1.png">
+          </span>
+        </div>
+      </div>
+
+      <div class="productbar_cell purchase" style="display:none;">
+        <!-- 相关描述 -->
+        <div class="item_cell">
+          <span class="item_essay">
+          <h3>云进销存</h3>
+            <div class="item_deital">
+              <p>帮助小微企业实现购，销，存和应收应付款一体管理</p>
+              <p>满足行业属性：食品，服装，3C等多行业支持：尺码，颜色，批次，保质期，序列号</p>
+              <p>多端协同：支持网页端，手机APP，POS，PDA等，即用即走，便捷高效</p>
+            </div>
+            <hr/>
+            <p>“使只需一部手机就能看到每天收入、进账、客户欠款等数据，出差也能实时了...</p>
+            <button class="btn btn-primary disabled" type="button" name="try_more">30天免费试用</button>
+            <button id="btn_second" class="btn disabled" type="button" name="know_more">参看更多</button>
+          </span>
+          <span class="item_img">
+            <img src="./images/product/product_cell_2.png" alt="product_cell_2.png">
+          </span>
+        </div>
+      </div>
+
+      <div class="productbar_cell mobile" style="display:none;">
+        <!-- 相关描述 -->
+        <div class="item_cell">
+          <span class="item_essay">
+            <h3>SuperSeven小程序商城</h3>
+            <div class="item_deital">
+              <p>无需二次开发，10分钟快速搭建专属获客小程序</p>
+              <p>拼团砍价，邀请助力等100＋营销插件，永久免费升级</p>
+              <p>微信服务、手机短信通知、提醒订单状态，更好地为商家和用户提供消息通知渠道</p>
+            </div>
+            <hr/>
+            <p>“通过后台操作小程序上线和内容管理，多种裂变营销玩法，借助微信红利，大大降低了...</p>
+            <button class="btn btn-primary disabled" type="button" name="try_more">免费申请试用</button>
+            <button id="btn_second" class="btn disabled" type="button" name="know_more">参看更多</button>
+          </span>
+          <span class="item_img">
+            <img src="./images/product/product_cell_3.png" alt="product_cell_1.png">
+          </span>
+        </div>
+      </div>
+
+      <div class="productbar_cell trade" style="display:none;">
+        <!-- 相关描述 -->
+        <div class="item_cell">
+          <span class="item_essay">
+            <h3>云财贸</h3>
+            <div class="item_deital">
+              <p>帮助小微企业进行多仓库、多门店连锁经营一站式管理</p>
+              <p>财务，业务等多维度分析，财税一体化</p>
+              <p>记账凭证自动生成，智能财务报表分析，同时还集成云POS门店管理</p>
+            </div>
+            <hr/>
+            <p>“使用云财贸后，各部门衔接更顺畅，销售数据汇总更准确、完整，分析起来...</p>
+            <button class="btn btn-primary disabled" type="button" name="try_more">免费申请试用</button>
+            <button id="btn_second" class="btn disabled" type="button" name="know_more">参看更多</button>
+          </span>
+          <span class="item_img">
+            <img src="./images/product/product_cell_4.png" alt="product_cell_1.png">
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 特点==================================================================== -->
+    <div id="character" class="characterbar">
+      <div class="characterbar_content_title container">
+        <p>选择SuperSeven的理由</p>
+      </div>
+      <div class="characterbar_content_desc container">
+        <p>SuperSeven4个月沉淀，实现云端互联网技术与在线交互模式创新</p>
+      </div>
+
+      <!-- 选择原因 -->
+      <div class="chooseReason">
+        <!-- 特点1************************** -->
+        <div class=" reason reason_1 reason-firstLine">
+          <span class="reason_image">
+              <img src="./images/character/character_1.png" alt="金蝶精斗云财务软件" title="金蝶品质、技术领先">
+          </span>
+
+          <span class="reason_content">
+              <p class="content_title">高级品质，技术领先</p>
+              <p class="content_desc">至四个月前项目开始，SuperSeven团队尽心尽力，对进销存进行了细致的讨论，前端工作人员获得团队7个人的一致认可</p>
+          </span>
+        </div>
+        <!-- 特点2************************** -->
+        <div class=" reason reason_2 reason-firstLine">
+          <span class="reason_image">
+              <img src="./images/character/character_2.png" alt="金蝶精斗云财务软件" title="经营+管理，一体化解决方案">
+          </span>
+
+          <span class="reason_content">
+              <p class="content_title">经营+管理，一体化解决方案</p>
+              <p class="content_desc">管理上以财税创新为核心，经营上以全渠道营销为核心，打造“经营+管理”的一体化解决方案</p>
+          </span>
+        </div>
+        <!-- 特点3************************** -->
+        <div class="reason reason_1 reason-secondLine">
+          <span class="reason_image">
+              <img src="./images/character/character_3.png" alt="金蝶精斗云财务软件" title="高效运维、安全稳定">
+          </span>
+
+          <span class="reason_content">
+              <p class="content_title">高效运维、安全稳定</p>
+              <p class="content_desc">国际信息安全标准认证及国内电信级IDC机房数据存储，确保数据安全</p>
+          </span>
+        </div>
+        <!-- 特点4************************** -->
+        <div class="reason reason_2 reason-secondLine">
+          <span class="reason_image">
+              <img src="./images/character/character_4.png" alt="金蝶精斗云财务软件" title="7*12小时放心服务">
+          </span>
+
+          <span class="reason_content">
+              <p class="content_title">7*12小时放心服务</p>
+              <p class="content_desc">400热线/企业QQ/智能客服等在线服务，31家分公司遍布全国，确保您购买与服务无后顾之忧</p>
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 方案==================================================================== -->
+    <div id="scheme" class="schemebar">
+      <div class="scheme_title">
+        <div class="scheme_title_item">
+          <p>场景解决方案</p>
+          <div class="schemeEntity"></div>
+        </div>
+
+        <div class="scheme_title_item">
+          <p>行业解决方案</p>
+          <div class="schemeEntity"></div>
+        </div>
+
+        <div class="scheme_title_item">
+          <p>平台解决方案</p>
+          <div class="schemeEntity"></div>
+        </div>
+
+      </div>
+      <div class="box_s">
+        <div class="scheme_firstLine">
+          <span class="schemeBox">
+            <div class="schemeBox-title">
+              <img src="./images/scheme/进销存.png" alt="进销存">
+              <h5>进销存</h5>
+            </div>
+            <p>采购、订单、库存等业务流程自定义；合同、财务、销售数据均可通过报表进行...</p>
+          </span>
+
+          <span class="schemeBox">
+            <div class="schemeBox-title">
+              <img src="./images/scheme/设备.png" alt="设备巡检">
+              <h5>设备巡检</h5>
+            </div>
+            <p>一物一码，一台手机就能覆盖全生命周期的设备管理；设备档案、报修、巡检...</p>
+          </span>
+
+          <span class="schemeBox">
+            <div class="schemeBox-title">
+              <img src="./images/scheme/项目.png" alt="项目管理">
+              <h5>项目管理</h5>
+            </div>
+            <p>从立项到结项，自定义管理流程；甘特图等七大常用仪表盘助力解决采购、成本...</p>
+          </span>
+        </div>
+
+        <div class="scheme_secondLine">
+          <span class="schemeBox">
+            <div class="schemeBox-title">
+              <img src="./images/scheme/智能.png" alt="智能售后">
+              <h5>智能售后</h5>
+            </div>
+            <p>只能派单、服务监控、费用结算、客户反馈、产品备件、网点管理，无死角覆盖...</p>
+          </span>
+
+          <span class="schemeBox">
+            <div class="schemeBox-title">
+              <img src="./images/scheme/客户.png" alt="客户管理">
+              <h5>客户管理</h5>
+            </div>
+            <p>从线索、商机、合同到回款均可根据团队习惯自定义管理流程；销售转化漏斗均...</p>
+          </span>
+
+          <span class="schemeBox">
+            <div class="schemeBox-title">
+              <img src="./images/scheme/生产.png" alt="生产管理">
+              <h5>生产管理</h5>
+            </div>
+            <p>设备维护、物料拆分、原料采购、生产计划、质量检测、财务管理，一应俱全的...</p>
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- 成为合作伙伴============================================================= -->
+    <div id="partner" class="partnerbar">
+      <div class="partner_header">
+        <p class="header_desc">JavaEE第六小组</p>
+      </div>
+
+      <!-- 等长线 -增加美感 -->
+      <div class="line"></div>
+
+      <div class="partner_firstLine">
+        <span id="first_span" class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组长">
+          <p class="firstLine_desc">
+            <p>崔纹振</p>
+            <p></p>
+          </p>
+        </span>
+
+        <span class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组员">
+          <p class="firstLine_desc">
+            <p>张嘉麟</p>
+            <p></p>
+          </p>
+        </span>
+
+        <span class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组员">
+          <p class="firstLine_desc">
+            <p>吕浩正</p>
+            <p></p>
+          </p>
+        </span>
+
+        <span class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组员">
+          <p class="firstLine_desc">
+            <p>黄可杰</p>
+            <p></p>
+          </p>
+        </span>
+      </div>
+
+      <div class="partner_secondLine">
+        <span id="first_span" class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组员">
+          <p class="secondLine_desc">
+            <p>周学友</p>
+            <p></p>
+          </p>
+        </span>
+
+        <span class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组员">
+          <p class="secondLine_desc">
+            <p>陈光志</p>
+            <p></p>
+          </p>
+        </span>
+
+        <span class="partnerBox">
+          <img src="./images/body/test_header.jpg" alt="组员">
+          <p class="secondLine_desc">
+            <p>陈玉军</p>
+            <p></p>
+          </p>
+        </span>
+
+        <span id="last_span" class="partnerBox last_item">
+          <img src="./images/body/join-us.jpg" alt="加入我们">
+          <p class="secondLine_desc">
+            <p>加入我们</p>
+          </p>
+        </span>
+      </div>
+
+
+
+    </div>
+
+    <!-- 客户==================================================================== -->
+    <div id="custom" class="custombar">
+      <div class="first-custom">
+        <span class="top_desc">
+          <p>被100,000+企业所信任的</p>
+          <p>无代码系统搭建平台</p>
+          <button type="button" name="button">免费试用-></button>
+          <button type="button" name="button">定制系统-></button>
+        </span>
+        <span class="top_img">
+          <img width="468px" height="206px" src="./images/footer-company.png" alt="客户公司">
+        </span>
+      </div>
+
+
+      <!-- 声明版续项 -->
+      <div class="minibar">
+        <p>2020&nbsp;SuperSeven&nbsp;-&nbsp;版权所有&nbsp;侵权必究</p>
+      </div>
+    </div>
+
+
+  </body>
+</html>

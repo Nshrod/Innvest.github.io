@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- LOGO============================ -->
+    <link rel="icon" href="../images/logo.ico">
+
+    <!-- CSS-矢量图======================= -->
+    <link rel="stylesheet" href="../css/ali_iconfont_1.css">
+    <link rel="stylesheet" href="../css/ali_iconfont_2.css">
+    <link rel="stylesheet" href="../css/ali_iconfont_3.css">
+    <link rel="stylesheet" href="../css/back.css">
+
+    <!-- LayUI============================ -->
+    <link rel="stylesheet" href="../css/layui.css">
+    <script src="../js/layui.js"></script>
+
+    <!-- 自定义CSS======================== -->
+    <link rel="stylesheet" href="../css/manager.css">
+
+    <title>SuperSeven - 后台首页</title>
+  </head>
+  <body>
+    <!-- sideBar  -->
+    <div class="layui-side">
+        <div class="layui-side-scroll">
+          <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+          <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+            <li class="sidebar_header">
+              <a class="sidebar_header_a" href="javascript:;">
+                <img src="../images/logo.ico" alt="logo" width="35px" height="25px">
+                SuperSeven
+              </a>
+            </li>
+            <li class="layui-nav-item sideBar_f">
+              <a href="./manager.html">
+                <img src="../images/矢量图/首页-选中.png" alt="首页" width="28px" height="28px">
+                首页
+              </a>
+            </li>
+
+            <li class="layui-nav-item sideBar_s">
+              <a href="">
+                <button type="button" name="button">
+                  <span class="iconfont icon-jiahao" style="margin-right:5px;"></span>
+                  创建
+                </button>
+              </a>
+            </li>
+
+            <li class="layui-nav-item sideBar_item">
+              <a href="">
+                <img src="../images/矢量图/销售.png" alt="销售" width="28px" height="28px">
+                销售管理
+              </a>
+            </li>
+            <li class="layui-nav-item sideBar_item">
+              <a href="">
+                <img src="../images/矢量图/采购.png" alt="采购" width="28px" height="28px">
+                采购管理
+              </a>
+            </li>
+            <li class="layui-nav-item sideBar_item">
+              <a href="">
+                <img src="../images/矢量图/财务.png" alt="财务" width="28px" height="28px">
+                财务流水
+              </a>
+            </li>
+            <li class="layui-nav-item sideBar_item">
+              <a href="">
+                <img src="../images/矢量图/库存.png" alt="库存" width="28px" height="28px">
+                库存流水
+              </a>
+            </li>
+            <li class="layui-nav-item sideBar_item">
+              <a href="">
+                <img src="../images/矢量图/基础.png" alt="基础" width="28px" height="28px">
+                基础信息
+              </a>
+            </li>
+
+              <hr class="layui-bg-gray">
+
+            <li class="layui-nav-item sideBar_item sideBar_item_f">
+              <a href="./buy.html">
+                <img src="../images/矢量图/全部.png" alt="全部" width="28px" height="28px">
+                全部
+              </a>
+            </li>
+            <li class="layui-nav-item sideBar_item sideBar_item_f">
+              <a href="">
+                <img src="../images/矢量图/加号.png" alt="我创建" width="28px" height="28px">
+                我创建的
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    <!-- 右边主体内容 -->
+      <div class="layui-body">
+        <div class="startBox">
+          <ul class="layui-nav nav-right Layui-row">
+            <li class="layui-nav-item header-p layui-col-md6">
+              <p>管理首页</p>
+            </li>
+
+            <li class="layui-nav-item startBox-item" id="item_1">
+              <a href="#"><div class="iconfont icon-fangzi" title="管理"></div></a>
+            </li>
+            <li class="layui-nav-item startBox-item">
+              <a href="#"><div class="iconfont icon-tongxunlu" title="通讯录"></div></a>
+            </li>
+            <li class="layui-nav-item startBox-item">
+              <a href="#"><div class="iconfont icon-tubiaosvg-" title="站内信"></div></a>
+            </li>
+            <li class="layui-nav-item startBox-item">
+              <a href="#"><div class="iconfont icon-wenhao" title="帮助"></div></a>
+            </li>
+            <li class="layui-nav-item startBox-item" id="item_button">
+              <a href="#">
+                <button type="button" name="button">
+                  <img src="../images/back/插件.png" alt="">
+                  插件中心
+                </button>
+              </a>
+            </li>
+
+            <li class="layui-nav-item startBox-item" id="item_img">
+              <a href="#">
+                <!-- 图标徽章 -->
+                <img class="layui-nav-img" src="../images/back/head-logo.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 内容主体区域============================================================= -->
+        <div style="padding: 15px;">
+          <!-- topSection左边面板 -->
+          <div class="topSection">
+            <span class="leftBar">
+              <div class="layui-card">
+                <!-- 卡片头============================= -->
+                <div class="layui-card-header sectionHeader">
+                  <p class="section-first-desc">
+                    <img src="../images/back/勾.png" alt="">
+                    待办事项
+                  </p>
+                  <p class="section-second-desc">及时清理待办，可以有效提升流程效率</p>
+                </div>
+
+                <!-- 卡面主体========================== -->
+                <div class="layui-card-body sectionBody layui-row">
+                  <span class="sectionBody_desc layui-col-md3">
+                    <h5>12</h5><br/>
+                    <a href="#">
+                      全部待办
+                    </a>
+                  </span>
+                  <span class="sectionBody_desc layui-col-md3">
+                    <h5>0</h5><br/>
+                    <a href="#">
+                      已超时
+                    </a>
+                  </span>
+                  <span class="sectionBody_desc layui-col-md3">
+                    <h5>0</h5><br/>
+                    <a href="#">
+                      即将超时
+                    </a>
+                  </span>
+                  <span class="sectionBody_desc layui-col-md3">
+                    <h5>0</h5><br/>
+                    <a href="#">
+                      催办
+                    </a>
+                  </span>
+
+                </div>
+              </div>
+            </span>
+
+            <!-- topSection右边面板 -->
+            <span class="rightBar">
+              <p class="rightBar_desc" id="rightBar_f">
+                <img src="../images/back/矢量图/写.png" alt="我发起的">我发起的
+              </p>
+              <hr class="layui-bg-gray">
+              <p class="rightBar_desc">
+                <img src="../images/back/矢量图/抄送.png" alt="抄送事项">抄送事项
+              </p>
+              <hr class="layui-bg-gray">
+              <p class="rightBar_desc">
+                <img src="../images/back/矢量图/草稿箱.png" alt="草稿箱">草稿箱
+              </p>
+              <hr class="layui-bg-gray">
+              <p class="rightBar_desc" id="rightBar_l">
+                <img src="../images/back/矢量图/已办.png" alt="已办事项">已办事项
+              </p>
+            </span>
+          </div>
+
+          <!-- 中间描述================================= -->
+          <div class="middlebox">
+            <p class="middlebox_desc">常用</p>
+            <button type="button" name="button">
+              <img src="../images/back/加号.png" alt="">
+              创建
+            </button>
+          </div>
+
+          <!-- 末尾盒子=================================== -->
+          <div class="lastBox">
+            <div class="lastBox_f">
+              <a href="./saleI.html">
+                <span class="innBox">
+                  <p class="innBox_f">
+                    <img src="../images/back/section/dashboard_money.png" alt="">
+                    销售信息一览
+                  </p>
+                  <p class="innBox_s">
+                    <span class="iconfont icon-yanjing innBox_icon"></span>
+                  </p>
+                </span>
+              </a>
+
+              <a href="./buy.html">
+                <span class="innBox">
+                  <p class="innBox_f">
+                    <img src="../images/back/section/dashboard_product.png " alt="">
+                    采购订单管理
+                  </p>
+                  <p class="innBox_s">
+                    <span class="iconfont icon-yanjing innBox_icon"></span>
+                  </p>
+                </span>
+              </a>
+
+              <a href="./saleM.html">
+                <span class="innBox">
+                  <p class="innBox_f">
+                    <img src="../images/back/section/icon_application_add.png" alt="">
+                    销售订单管理
+                  </p>
+                  <p class="innBox_s">
+                    <span class="iconfont icon-yanjing innBox_icon"></span>
+                  </p>
+                </span>
+              </a>
+
+            </div>
+
+            <div class="lastBox_s">
+              <a href="./store.html">
+                <span class="innBox">
+                  <p class="innBox_f">
+                    <img src="../images/back/section/icon_application_Hammer.png" alt="">
+                    库存及发货记录
+                  </p>
+                  <p class="innBox_s">
+                    <span class="iconfont icon-yanjing innBox_icon"></span>
+                  </p>
+                </span>
+              </a>
+
+              <a href="./people.html">
+                <span class="innBox">
+                  <p class="innBox_f">
+                    <img src="../images/back/section/icon_application_people.png" alt="">
+                    供应商管理
+                  </p>
+                  <p class="innBox_s">
+                    <span class="iconfont icon-yanjing innBox_icon"></span>
+                  </p>
+                </span>
+              </a>
+
+              <a href="#">
+                <span class="innBox">
+                  <p class="innBox_f">
+                    <img src="../images/back/section/icon_application_Pen.png" alt="">
+                    仓库信息管理
+                  </p>
+                  <p class="innBox_s">
+                    <span class="iconfont icon-yanjing innBox_icon"></span>
+                  </p>
+                </span>
+              </a>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,524 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* =================================导航栏 ============================================*/
+/* 导航栏logo */
+.navbar-brand img{
+  margin-top: -5px;
+  padding: 0;
+  height: 70%;
+  width: 65px;
+}
+.navbar-brand b{
+  margin-left: -2px;
+  margin: 0;
+  padding: 0;
+  font-family: lishu_font;
+  font-weight: bolder;
+  color: #e67e22;
+}
+
+.navbar{
+  font-family: cursive;
+  font-weight: bold;
+  position: fixed;
+  background: #2d3436;
+}
+.navbar_bg{
+  background: white;
+  border-bottom: 0.5px solid #bdc3c7;
+}
+/* 导航栏动态效果 */
+/* .navbar:hover{
+  background: #2f3542;
+  color: #0652DD;
+  /* 形成边框阴影
+} */
+
+.navbar-nav{
+  margin-left: 25px;
+}
+
+ul li{
+  padding: 0px 25px;
+}
+.nav-link{
+  color: #C4E538;
+}
+
+
+
+.login{
+  margin-left: 625px;
+  list-style: none;
+  font-family: serif;
+  font-weight: bolder;
+}
+.login a{
+  color: #ffda79;
+}
+
+/* 轮播图片 */
+.banner{
+  width: auto;
+  height: 496px;
+}
+.banner img{
+  width: 100%;
+  height: 496px;
+}
+
+/* 主体内容 */
+.centrebar{
+  background-color: white;
+  padding-top: 45px;
+}
+.centrebar div{
+  height: auto;
+  text-align: center;
+}
+
+/* 中间宣言 *********************************************************************/
+.manifesto{
+  /* 设计一下高度，和内外边框 */
+
+}
+.m_part1 img{
+  width: 16px;
+  height: 16px;
+}
+
+#summary{
+  color: #fab1a0;
+  font-family: xingkai_font;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.m_part1 p{
+  /* 修改一下字体 */
+  font-family: bofont;
+  margin-top: -5px;
+}
+#summary_title img{
+  padding-right: 0px;
+  margin-right: 0px;
+}
+#summary_title span{
+  width: 130px;
+  font-size: 14px;
+  color: #666666;
+  margin-left: 2px;
+  margin-right: 32px;
+}
+
+/* 产片项 ***********************************************************************/
+.productbar_item{
+  display: inline-block;
+  margin: 0px 60px;
+  padding: 0px 10px;
+  margin-top: 22px;
+
+}
+.productbar_item p{
+  padding: 0px 35px;
+  margin: 0px;
+  font-family: bofont;
+  font-size: 16px;
+  color: #666666
+}
+.item_first{
+  margin-left: 45px;
+}
+.item_last{
+  margin-right: 45px;
+}
+/* 装饰条 */
+.productbar_item div{
+  margin-top: 9px;
+  height: 4px;
+  background-color: #3498db;
+}
+
+/* 对应描述栏 */
+.productbar_cell{
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+  height: 472px;
+  background-color: #F3F6FA;
+}
+.item_cell{
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+/* 描述项 */
+.item_essay{
+  display: inline-block;
+  font-family: bofont;
+  color: #212121;
+}
+.item_essay h3{
+  font-family: serif;
+  color: #666666;
+  font-size: 24px;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+.item_deital{
+  margin-bottom: 8px;
+}
+.item_deital p{
+  font-size: 13.5px;
+  line-height: 22px;
+  color: #666666;
+}
+.item_essay p{
+  font-size: 14px;
+  color: #666666;
+  line-height: 22px;
+}
+.item_essay button{
+  width: 144px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-top: 25px;
+  border-radius: 2px;
+}
+#btn_second{
+  border-color: #3498db;
+  background-color: white;
+  color: #3498db;
+}
+
+/* 描述对应图片 */
+.item_img{
+  display: inline-block;
+  margin-left: 5px;
+}
+.item_img img{
+  margin-top: -120px;
+}
+
+/* 特点项 **********************************************************************/
+.characterbar{
+  padding: 50px 0px;
+  height: 100%;
+  font-family: bofont;
+}
+.characterbar_content_title p{
+  font-family: xingkai_font;
+  font-size: 32px;
+  color: #212121;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 48px;
+  margin-top: 0px;
+}
+.characterbar_content_desc p{
+  color: #212121;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.reason{
+  width: 580px;
+  height: 184px;
+  display: inline-block;
+  /* border: 0.5px solid black; */
+  vertical-align: middle;
+  margin: 20px auto;
+  padding: 25px 20px;
+}
+
+.reason_image{
+  width: 200px;
+  height: 184px;
+}
+.reason_image img{
+  padding: 5px;
+}
+
+.reason_content{
+  display: inline-block;
+  width: 380px;
+  height: 184px;
+  flex: 1;
+}
+.reason_content p{
+  padding: 0px;
+  margin: 0px;
+  color: #212121;
+}
+
+.content_title{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 55px;
+}
+
+.reason_1{
+  margin-left: 130px
+}
+
+.reason_2{
+  margin-left: 80px
+}
+.reason-firstLine{
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+.reason-secondLine{
+  margin-top: 60px;
+}
+.reason:hover{
+  box-shadow: #ccc 0px 0px 10px;
+}
+
+/* 方案样式 ********************************************************************* */
+.schemebar{
+  height: 100%;
+  background-color: #F3F6FA;
+}
+
+.scheme_title{
+  text-align: center;
+}
+.scheme_title_item{
+  display: inline-block;
+  width: 250px;
+}
+.scheme_title_item p{
+  line-height: 60px;
+  font-size: 30px;
+  color: #3498db;
+  font-family: xingkai_font;
+  padding: 10px 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.scheme_title_item div{
+  margin-top: -7px;
+  width: 185px;
+  height: 5px;
+  background: linear-gradient(90deg,#90a8ff,#9ef2ff 43%,#ffbd00);
+  margin-left: 32px;
+}
+
+.box_s{
+  margin-top: 100px;
+  margin-left: 170px;
+
+}
+
+.schemeBox{
+  width: 359px;
+  height: 218px;
+  box-shadow: 10px 10px 20px 0 hsla(0,0%,93.7%,.63);
+  border-radius: 8px;
+  border: 2px solid #e7e7f2;
+  box-sizing: border-box;
+  transition: all .3s;
+  margin-bottom: 22px;
+  cursor: pointer;
+  background-size: cover;
+  /* border: 1px solid #212121; */
+  display: inline-block;
+  vertical-align: center;
+  margin-right: 35px;
+  padding: 20px 30px;
+}
+
+.schemeBox-title img{
+  width: 40px;
+  height: 40px;
+  /* background-color: #f39c12; */
+  display: inline;
+  padding: 8px;
+}
+.schemeBox-title h5{
+  display: inline;
+  font-family: xingkai_font;
+  line-height: 40px;
+  text-align: center;
+}
+.schemeBox p{
+  color: #555d67;
+  margin-top: 15px;
+  font-variant: small-caps;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-family: bofont;
+}
+
+.schemeBox:hover{
+  transform: scale(1.1);
+}
+
+/* 成为合作伙伴 ***************************************************************** */
+.partnerbar{
+  height: 110%;
+  /* background-color: #55efc4; */
+}
+
+.partner_header{
+  text-align: center;
+  height: 50px;
+  margin: 15px auto;
+}
+.header_desc{
+  line-height: 50px;
+  font-family: xingkai_font;
+  font-size: 30px;
+  color: #1abc9c;
+}
+.line{
+  margin: 0px 60px;
+  height: 1px;
+  background-color: black;
+}
+
+.partner_firstLine{
+  margin: 0px 60px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.partner_secondLine{
+  margin: 0px 60px;
+  margin-top: 30px;
+}
+
+.partnerbar span{
+  display: inline-block;
+  vertical-align: middle;
+  height: 250px;
+  width: 300px;
+  margin-right: 40px;
+  /* border: 1px solid black; */
+}
+#last_span{
+  margin-right: 0px;
+}
+#first_span{
+  margin-left: 18px;
+}
+
+.partnerbar img{
+  height: 190px;
+  width: 300px;
+}
+
+.partnerBox p{
+  font-family: lishu_font;
+}
+
+.last_item{
+  /* linear-gradient(90deg,#90a8ff,#9ef2ff 43%,#ffbd00); */
+  /* background: linear-gradient(0deg, #dfe6e9 30%,white); */
+}
+.last_item p{
+  font-family: xingkai_font;
+  /* font-size: 30px; */
+  /* text-align: center; */
+}
+
+/* 客户 ************************************************************************ */
+.custombar{
+  height: 100%;
+  background-image: url("../images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.first-custom{
+  text-align: center;
+}
+.first-custom span{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 150px;
+
+}
+/* width="468" height="206"  footer-company大小*/
+.top_img{
+  width: 468px;
+  height: 206px;
+  margin-left: 150px;
+}
+
+.top_desc{
+  margin-right: 200px;
+}
+
+.top_desc p{
+  height: 66px;
+  font-size: 44px;
+  font-family: PingFangSC-Semibold,PingFang SC,Microsoft YaHei;
+  font-weight: 600;
+  color: #fff;
+  line-height: 66px;
+}
+
+.top_desc button{
+  width: 150px;
+  height: 50px;
+  background: #ffbd0f;
+  color: #fff;
+  outline: none;
+  border-radius: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-family: cursive;
+}
+
+.minibar{
+  text-align: center;
+  font-size: 13px;
+  font-family: cursive;
+  font-weight: 400;
+  color: #7c8593;
+  margin-top: 320px;
+  margin-bottom: 0px;
+}
+.minibar p{
+  margin: 0px;
+  padding: 0px;
+}

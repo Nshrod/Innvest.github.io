@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- LOGO===================== -->
+    <link rel="icon" href="../images/logo.ico">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap4======================================= -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- CSS============================================== -->
+    <link rel="stylesheet" href="../css/register.css">
+
+		<title>SuperSeven - 注册</title>
+  </head>
+  <body>
+    <!-- 主体部分 - 两个并行span-置于正中间 -->
+    <div class="registerBox">
+      <span class="leftbar">
+        <img src="../images/login-company.png" alt="注册图片">
+      </span>
+      <span class="rightbar">
+        <form name="login" class="registerbar" action="#" method="post">
+          <p class="firstLine">
+            <img src="../images/logo.ico" alt="logo图标">
+            注册
+            <a href="./login.html">
+              <button type="button" name="button">登录</button>
+            </a>
+          </p>
+          <p class="secondLine">欢迎回到SuperSeven</p>
+          <input type="text" name="uname" placeholder="手机号/邮箱" required>
+          <input id="check" type="text" name="check" placeholder="验证码">
+          <button class="checkbutton" type="button" name="button">发送验证码</button>
+          <input type="password" name="pass" placeholder="密码" required>
+          <input class="paybutton" type="button" name="paybutton" value="付费">
+          <input type="submit" name="submit" value="登录">
+        </form>
+      </span>
+    </div>
+  </body>
+</html>

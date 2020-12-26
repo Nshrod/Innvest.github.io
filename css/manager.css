@@ -1,0 +1,314 @@
+@font-face {
+  font-family: mainFont;
+  src: url("../fonts/央心缭乱.ttf");
+  url("../fonts/央心缭乱.ttf");
+}
+@font-face {
+  font-family: bofont;
+  src: url("../fonts/楷体.ttf");
+  url("../fonts/楷体.ttf");
+}
+@font-face {
+  font-family: lishu_font;
+  src:url("../fonts/STLITI.TTF");
+}
+@font-face {
+  font-family: xingkai_font;
+  src: url("../fonts/STXINGKA.TTF");
+}
+
+html{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: bofont;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #dfe4ea;
+}
+
+/* 从sidebar开始=========================================== */
+.layui-side{
+  /* 设置背景颜色 */
+  background-color: #0f1126;
+}
+.layui-side-scroll ul{
+  background-color: #0f1126;
+}
+
+/* sidebar 选项 样式表 */
+.sidebar_header{
+  height: 65px;
+  cursor: pointer;
+}
+.sidebar_header_a{
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  height: 65px;
+  width: 180px;
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 10px;
+  line-height: 65px;
+
+}
+.sidebar_header_a:hover{
+  background-color:  #0f1126;
+}
+.sidebar_header_a img{
+  padding: 0px;
+  margin-right: 5px;
+  height: 40px;
+  width: 55px;
+}
+/* 首页 */
+.sideBar_f{
+  background-color: #34495e;
+  border-bottom: 1.2px solid white;
+}
+.sideBar_f a{
+  margin-left: 15px;
+  font-family: bofont;
+  font-variant: normal;
+  font-size: 15px;
+}
+.sideBar_s{
+  border-bottom: 1.2px solid white;
+  height: 50px;
+}
+.sideBar_s a{
+  margin: 0px;
+}
+.sideBar_s a button{
+  background:  #0f1126;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 2px;
+  padding: 0px;
+  color: white;
+  border-radius: 17px;
+  font-family: bofont;
+}
+.sideBar_s a button:hover{
+  background-color: #34495e;
+}
+
+/* 同样的li选项 */
+.sideBar_item a{
+  /* 设置字体 */
+  font-family: sans-serif;
+}
+.sideBar_item a img{
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+.sideBar_item_f a img{
+  /* 特殊设置，区分 */
+  border: 0.5px solid gray;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+/* 右边主体内容- 顶部导航条 */
+.startBox{
+  background-color: white;
+  height: 65px;
+}
+.startBox ul{
+  height: 65px;
+}
+.startBox-item{
+  padding: 0px;
+  width: 75px;
+}
+#item_1{
+  margin-left: 120px;
+}
+
+#item_button{
+  width: 140px;
+}
+#item_button button{
+  height: 30px;
+  font-family: bofont;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  width: 120px;
+}
+#item_img{
+  width: 50px;
+  margin-left: 20px;
+}
+
+/* 主体内容 topSection==================================== */
+/* 左面板----------------------- */
+.topSection span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.leftBar{
+  width: 700px;
+
+}
+.sectionHeader{
+  width: 655.2px;
+  margin: 0px 20px;
+  height: 80px;
+  background-image: url("../images/back/sectionIMG.png");
+  height: 80px;
+  padding-top: 17px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: contain;
+}
+.section-first-desc{
+  font-family: bofont;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-first-desc img{
+  width: 29px;
+  height: 29px;
+  margin-top: -4px;
+}
+.section-second-desc{
+  font-family: sans-serif;
+  font-size: 13px;
+  color: rgba(43,52,65,.4);
+  margin-bottom: 10px;
+}
+.sectionBody{
+  font-family: monospace;
+  padding: 0px;
+  margin-left: 20px;
+}
+.sectionBody_desc{
+  padding-top: 15px;
+  padding-bottom: 27px;
+}
+.sectionBody h5{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom:-10px;
+  padding: 0px;
+}
+.sectionBody a{
+  margin: 0px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+/* 右面板----------------------- */
+.rightBar{
+  width: 250px;
+  background: #fff;
+  padding: 0 25px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  margin-left: 50px;
+}
+.rightBar p{
+  font-family: bofont;
+  line-height: 30px;
+}
+#rightBar_f{
+  margin-top: 8px;
+}
+#rightBar_l{
+  margin-bottom: 8px;
+}
+.rightBar img{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.rightBar p:hover{
+  background-color: #ecf0f1;
+}
+
+/* 中间描述========================================================= */
+.middlebox{
+  width: 1180px;
+  border-bottom: 1px solid #95a5a6;
+  padding: 20px 0 10px;
+  margin-bottom: 20px;
+}
+.middlebox p{
+  display: inline;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.middlebox button{
+  font-family: bofont;
+  float: right;
+  margin-right: 25px;
+  width: 120px;
+  background-color: #f5bc21;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+.middlebox button img{
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  margin-right: 2px;
+  margin-top: -2px;
+}
+
+/* 末尾盒子样式表=========================================================== */
+.lastBox{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  margin-left: 20px;
+}
+.lastBox_f{
+  margin-bottom: 20px;
+  height: 150px;
+}
+.lastBox_s{
+  height: 150px;
+}
+.innBox{
+  width: 240px;
+  height: 130px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.innBox_f{
+  padding: 12px;
+  font-family: bofont;
+}
+.innBox_f img{
+  width: 56px;
+  height: 56px;
+  margin-right: 10px;
+}
+
+.innBox_s{
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #ecf0f1;
+  height: 30px;
+  padding-top: 5px;
+}
+.innBox_icon{
+  margin-left: 210px;
+}
